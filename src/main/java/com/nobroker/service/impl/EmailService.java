@@ -48,8 +48,6 @@ import java.util.Map;
         message.setSubject(subject);
         message.setText(text);
         javaMailSender.send(message);
-
-
     }
 
 }
